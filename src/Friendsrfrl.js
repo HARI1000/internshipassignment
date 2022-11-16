@@ -1,7 +1,6 @@
-import React,{useState,useRef} from 'react'
+import React,{useState} from 'react'
 import Tile from "./Tile";
 import "./App.css";
-import userEvent from '@testing-library/user-event';
 function Friendsrfrl() {
   const datas=[{"name":"Dhiraj Saxsena","date":"14 Sep,2022","cno":6,"courses":["UI/UX","Photoshop","Illustrator"," Python","MERN","Java"],"rfrlamnt":185},{"name":"Subash Mishra","date":"14 Sep,2022","cno":23,"courses":["UI/UX","Photoshop","Illustrator"," Python","MERN","Java","c++","c","bootstrap","javascript"],"rfrlamnt":485},{"name":"Prafull Kumar","date":"14 Sep,2022","cno":23,"courses":["UI/UX","Photoshop","Illustrator"," Python","MERN","Java"],"rfrlamnt":485}];
   const rfrlcode="E D C H 5 4";
